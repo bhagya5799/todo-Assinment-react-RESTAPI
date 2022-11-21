@@ -1,0 +1,27 @@
+### 
+GET http://localhost:3003/
+
+
+
+###
+POST http://localhost:3003/AddTodo/
+Content-Type: application/json
+
+{
+    "id":2,
+    "todo": "addTodo",
+    "isCompleted":true
+}
+
+###
+DELETE http://localhost:3003/deleteTodo/undefined
+
+
+
+###
+PUT http://localhost:3003/update/1
+Content-Type: application/json
+
+{
+     "isCompleted":false
+}
